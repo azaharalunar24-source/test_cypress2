@@ -13,5 +13,8 @@ describe('template spec', () => {
     cy.get('[name="username"]').type("tomsmith")
     cy.get('[name="password"]').type("SuperSecretPassword!")
     cy.get('#login button.radius').click()
+    cy.get('.subheader')
+    cy.get('#flash')    
 })   
+
     
